@@ -20,6 +20,8 @@ group :development, :test do
   gem 'capybara'
   gem 'selenium-webdriver'
   gem 'dotenv-rails'
+  gem "pry-byebug"
+  gem "pry-rails"
 end
 
 group :development do
