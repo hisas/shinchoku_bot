@@ -13,7 +13,6 @@ gem 'coffee-rails'
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'twitter'
-gem 'whenever', :require => false
 
 group :development, :test do
   gem 'sqlite3'
@@ -23,7 +22,6 @@ group :development, :test do
   gem 'dotenv-rails'
   gem "pry-byebug"
   gem "pry-rails"
-  gem "capistrano"
 end
 
 group :development do
