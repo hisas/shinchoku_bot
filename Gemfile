@@ -13,6 +13,7 @@ gem 'coffee-rails'
 gem 'turbolinks'
 gem 'jbuilder'
 gem 'twitter'
+gem 'octokit'
 
 group :development, :test do
   gem 'sqlite3'
@@ -22,7 +23,7 @@ group :development, :test do
   gem 'dotenv-rails'
   gem "pry-byebug"
   gem "pry-rails"
-end
+  end
 
 group :development do
   gem 'web-console'
