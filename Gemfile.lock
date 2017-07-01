@@ -232,6 +232,7 @@ DEPENDENCIES
   dotenv-rails
   jbuilder
   listen
+  nokogiri
   octokit
   pg
   pry-byebug

@@ -14,6 +14,7 @@ gem 'turbolinks'
 gem 'jbuilder'
 gem 'twitter'
 gem 'octokit'
+gem 'nokogiri'
 
 group :development, :test do
   gem 'sqlite3'
