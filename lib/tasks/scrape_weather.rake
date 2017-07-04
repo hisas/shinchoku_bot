@@ -8,7 +8,7 @@ namespace :weather do
     url = 'http://www.jma.go.jp/jp/yoho/319.html'
     doc = Nokogiri::HTML(open(url))
     # 気象庁から今日の18~24時の降水確率を取得
-    rainy_percent = doc.css('//table[@class="rain"]//tr//td')[3].children.text.chop.to_i
+    rainy_percent = doc.css('//table[@class="rain"]//tr//td')[7].children.text.chop.to_i
     # 降水確率が60%以上の時にツイート
     if rainy_percent >= 60
       @twitter = twitter_client
